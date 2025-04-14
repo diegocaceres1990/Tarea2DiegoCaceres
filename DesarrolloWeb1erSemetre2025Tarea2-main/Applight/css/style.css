@@ -1,0 +1,58 @@
+/* Parte  hover subrayado*/
+.navbar li a:hover {
+    text-decoration: underline;
+}
+/* le cambio el font-weight 200 al titulo H2 */
+.banner h2.white {
+    font-weight: 200;
+}
+
+/* color rojo al link */
+
+.banner h6.white a {
+    color: red;
+}
+
+/* seccion features le agregue el "[data-scroll-index='2']" para ganar mas especificidad */
+[data-scroll-index='2'].feature.section-padding .container .row .col-md-12 .sectioner-header.text-center h3 {
+    color: #8D1EFB;
+}
+
+/* color h5 5EE25A, color a los iconos f775b4 */
+
+[data-scroll-index='2'].feature>.container>.row>.col-md-12>.section-content.text-center>.row .col-md-4.col-sm-12>.media.single-feature.wow.fadeInUp .media-body>h5 {
+    color: #5EE25A;
+}
+
+.icon-border span[aria-hidden="true"]::before {
+    color: #f775b4;
+}
+
+/* En la sección de “Our Team” debe agregar un borde para el 
+elemento div.sec; onerheader el cual deberá ser de solid 1px #8D1EFB. */
+
+section.team.section-padding[data-scroll-index='3'] div.row > div.col-md-12 > div.sectioner-header.text-center {
+    border: solid 1px #8D1EFB;
+}
+
+/* Debajo de la sección anterior aparecen los nombres de unas personas, 
+se deberá cambiar el color del texto a #2E74A7 */
+
+html body .navbar.navbar-expand-lg.nav-scroll~.feature.section-padding+section.team.section-padding[data-scroll-index='3'] div.container div.row div.col-md-12 div.section-content.text-center>div.row .col-md-4 div.team-detail.wow.bounce h4 {
+    color: #2E74A7;
+}
+
+/* En la sección siguiente llamada “Testimonials” deberá agregar un subrayado (propiedad
+text-decoration:underline) a todos los nombres que aparecen en el carousel */
+
+
+html body section.testimonial.section-padding[data-scroll-index='4'] div.container div.row div.col-md-12 div.section-content div.row div.offset-md-2.col-md-8.col-sm-12 div.bx-wrapper div.bx-viewport div.slider div.slider-item div.test-text span {
+    text-decoration: underline;
+}
+
+/* Por úl;mo, debe realizar el cambio de color de letra en el footer del texto “W3
+Template” al color #844E41. */
+
+html body footer.footer-copy div.container-fluid div.row div.col-md-12 p a[target="_blank"] {
+    color: #844E41;
+}
