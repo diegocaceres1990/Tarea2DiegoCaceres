@@ -1,0 +1,68 @@
+h1  {
+    color: blue; /* Cambia el color del texto de los h1 a azul */
+}
+
+h1 {
+    color: blue; /* Cambia el color del texto de los h1 a rojo */
+}
+
+/* tengo dos reglas CSS aplicando color a un H1 pero siempre toma el ultimo */
+
+
+.text {
+    color: green; /* Este es una clase se utiliza .text */
+}
+
+p {
+    color: blue; /* Cambia el color del texto de los párrafos a azul */
+}
+
+/* esta es una simple */
+
+#container .text {
+    color: red; /* este le gana a todos porque tiene una clase y un ID */
+}
+
+
+p {
+    color: blue; /* Cambia el color del texto de los párrafos a rojo */
+}
+
+.text {
+    color: green; /* Cambia el color del texto de los elementos con la clase "text" a verde */
+}
+
+#main .text {
+    color: purple; /* Cambia el color del texto de los elementos con la clase "text" dentro del elemento con ID "main" a rojo */
+}
+
+p [data-info="special"] {
+    color: orange; /* Cambia el color del texto de los párrafos con el atributo data-info="special" a naranja */
+}
+
+
+a {
+    color: blue; /* Cambia el color del texto de los enlaces a azul */
+}
+
+.menu a {
+    color: red; /* Cambia el color del texto de los enlaces dentro de la clase "menu" a rojo */
+}
+
+/* A esta se le agrega  a wrapper que es la clase de la DIV due;a de la lista, se le agrega el .menu que es la clase de la UL (la lista) y se le agrega la clase de la etiqueta a */
+
+.wrapper .menu a.active {
+    color: green; /* Cambia el color del texto de los enlaces dentro de la clase "menu" dentro de la clase "wrapper" a verde */
+}
+
+#header .menu li a.active {
+    color: yellow; /* Cambia el color del texto de los enlaces dentro de la clase "menu" dentro del ID "header" a amarillo */
+}
+
+p {color: blue;}
+.section p {color: red;}
+.highlight .lead {color: green;}
+#hero .lead{
+    color: rgb(31, 194, 31);
+}
+p.lead {color: orange;}

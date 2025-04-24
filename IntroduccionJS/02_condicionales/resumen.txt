@@ -1,0 +1,27 @@
+Resumen
+
+*Una  declaración if verifica una condición y ejecutará una tarea si esa 
+ condición se evalúa como true.
+
+*Las declaraciones if...else toman decisiones binarias y ejecutan diferentes
+ bloques de código en función de una condición proporcionada.
+
+*Podemos agregar más condiciones usando declaraciones else if.
+
+*Los operadores de comparación, incluidos <, >, <=, >=, ===, !==, pueden comparar 
+ dos valores.
+
+*El operador lógico &&, o “and”, verifica si ambas expresiones 
+ proporcionadas son verdaderas.
+
+*El operador lógico ||, o “or”, verifica si alguna de las expresiones 
+ proporcionadas es verdadera.
+
+*El operador bang, !, cambia la veracidad y falsedad de un valor.
+
+*El operador ternario es una forma abreviada de simplificar declaraciones if...else.
+
+*Se puede utilizar una declaración para simplificar el proceso de escritura
+ de varias declaraciones else if.  La palabra clave break impide que se 
+ comprueben y ejecuten  las declaraciones restantes case del correspondiente
+ switch.

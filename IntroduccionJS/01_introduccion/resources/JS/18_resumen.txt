@@ -1,0 +1,30 @@
+Resumen de Variables
+
+Repasemos lo aprendido:
+
+* Las variables contienen datos reutilizables en un programa y los
+  asocian con un nombre.
+
+* Las variables se almacenan en memoria.
+
+* La palabra clave var se utiliza en versiones anteriores de JS anteriores
+  a ES6.
+
+* let es la forma preferida de declarar una variable cuando se puede reasignar
+  y const es la forma preferida de declarar una variable con un valor constante.
+
+* Las variables que no se han inicializado almacenan el tipo de datos
+  primitivo undefined.
+
+* Los operadores de asignación matemática facilitan el cálculo de un 
+  nuevo valor y su asignación a la misma variable.
+
+* El operador + se utiliza para concatenar cadenas que incluyen valores
+  de cadena almacenados en variables.
+
+* En ES6, los literales de plantilla utilizan comillas simples invertidas
+  ` para interpolar ${} valores en una cadena`
+
+* El operador typeof devuelve el tipo de datos (como una string) de un valor.
+
+

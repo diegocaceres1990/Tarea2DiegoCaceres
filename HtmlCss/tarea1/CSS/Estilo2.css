@@ -1,0 +1,50 @@
+/* Pseudoclases */
+/* Hace que el click del boton se haga verde al hacerle click, es una pseudoclase */
+/* active */
+button:active{
+  background-color: #4CAF50; /* Green */
+}
+/* focus al darle click tambien en este caso fue a un input */
+input:focus{
+color: blue; 
+}
+
+/* Hover, cuando el usuario pasa encima */
+
+a:hover{
+    color:aquamarine;
+    text-decoration: none;
+}
+
+/* nth-child, selecciona al hijo 2 por ejemplo de una lista bajo li, pero si lo agrego como 2n, la n se  lo aplica a todos los pares*/
+li:nth-child(2){
+    color: red;
+}
+
+/* pseudoelementos */
+/* after, inserta contenido despues del elemento, pero este lo agrega directamente al html, no lo vamos a ver desde el estilo */
+
+p::after{
+    content:" 😁";
+    color: red;
+}
+
+/* before, inserta contenido antes del elemento, pero este lo agrega directamente al html, no lo vamos a ver desde el estilo */
+p::before{
+    content:" 😁";
+    color: red;
+}
+
+
+/* first-letter, cambia el color de la primera letra del parrafo */
+p::first-letter{
+    color: red;
+    font-size: 50px;
+}
+
+/* a un placeholder le puedo poner color, con un ::placeholde */
+input::placeholder{
+    color: red;
+    font-size: 20px;
+}
+/* Cambia el color del placeholder de un input */

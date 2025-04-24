@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>    
+        <h1>Libros en linea</h1> <!-- cuando ya existe h1 no se puede volver a utilizar otro h1 en la pagina -->
+    </header>
+
+
+    <nav>
+        <ul>
+            <li><a href="home.html">Inicio</a></li>
+            <li><a href="informacion.html">Sobre los Libros</a></li>
+            <li><a href="Servicios.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+<!-- esto es la seccion de informacion de la pagina como el centro de mi pagina -->
+
+    <main>  
+        <section>
+            <h2>Sobre libros</h2> <!-- H2 se puede utilizar mas veces siempre y cuando esten en el mismo nivel, incluso si seguimos bajando en el codigo 
+            se reutiliza H2 siempre y cuando este en el mismo nivel -->
+            <p>Somos una empresa que entrega libros</p>  <!-- no se puede colocar una section sin titulo -->
+            <article>
+                <h3>Historia de la empresa</h3>
+                <p>Hemos vendido libros desde 2008</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Informacion de Libros</h2>
+            <article>
+                <h3>Historias para adulto</h3>
+                <p>Estos libros son unicamente para adultos</p>
+            </article>
+            <article>
+                <h3>Historias para niños</h3>
+                <p>Estos libros son unicamente para niños</p>
+            </article>
+        </section>
+<!-- Esto se muestra en el lado izquierdo, es como publicidad -->
+        <aside>
+            <h3>Precio de libros</h3>
+            <p>Estos son todos los precios de los libros</p>
+        </aside>
+        <div>   <!-- la div se utiliza cuando no va a ser parte de algo informativo, no tiene un significado importante en la pagina -->
+            <p>Estos son los libros que tenemos</p>
+        </div>
+        <article>  <!-- el article no tiene la obligacion de ser parte del section -->
+            <h2>Libros importantes</h2>
+            <p>Aqui la lista de libros importantes</p>
+        </article>
+    </main>
+
+    <!-- se puede crear un article cn header y footer -->
+
+<article>
+    <header>
+        <h2> Los libros pueden ser importantes</h2>
+    </header>
+    <p>Aqui veran la importancia de los libros</p>
+    <footer>
+        <p>Esto fue publicado en 2025</p>
+    </footer>
+</article>
+<!-- Esta seccion es el pie de pagina, se utiliza este simbolo &copy; que basicamente indica que la pagina es copyright -->
+    <footer>
+        <p>&copy;En esta tienda solo encontraras todo sobre libros</p>
+    </footer>
+
+</body>
+</html>

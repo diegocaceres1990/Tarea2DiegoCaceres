@@ -1,0 +1,31 @@
+Echemos un vistazo más a los conceptos que acabamos de aprender:
+
+*Los datos se imprimen o registran en la consola, un panel que muestra 
+ mensajes, con console.log().
+
+*Podemos escribir una sola línea comentarios con //y comentarios de 
+ varias líneas entre /*y */.
+
+*Hay 8 fundamentales tipos de datos en JavaScript: números, BigInts,
+ strings,, booleanos, null, Undefined, symbol y objetc.
+
+*Los números son cualquier número sin comillas: 23.8879
+
+*Las cadenas son caracteres entre comillas simples o dobles:'Sample String'
+
+*La aritmética incorpora operadorada
+incluye +, -, *, /, y %.
+
+*Objetos
+ Incluidas las instancias de tipos de datos, pueden tener propiedades, 
+ información almacenada. Las propiedades se indican con un . después del 
+ nombre del objeto, por ejemplo: 'Hello'.length.
+
+*Los objetos, incluidas las instancias de tipos de datos, pueden tener
+ métodos que realizan acciones. Los métodos se invocan añadiendo al objeto 
+ o instancia un punto, el nombre del método y paréntesis. 
+ Por ejemplo: 'hello'.toUpperCase().
+
+*Podemos acceder a propiedades y métodos utilizando el .operador , punto.
+ Los objetos integrados, incluido Math, son colecciones de métodos y 
+ propiedades que proporciona JavaScript.

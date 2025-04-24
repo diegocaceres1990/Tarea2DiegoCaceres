@@ -1,0 +1,72 @@
+<!-- Aqui se declara la version de HTML -->
+<!DOCTYPE html>
+<html lang="es">
+<!-- Aqui se declara el head de la pagina -->
+<html>  
+<head>
+    <title>Estudio 1</title>
+    <meta name="author" content="Diego Caceres">
+    <meta name="keyboards" content="Comida, favorita, blog, comida china, comida italiana, comida mexicana, comida guatemalteca, comida peruana">
+    <link rel="stylesheet" href="tarea1/CSS/Estilo.css">
+    <!-- se puede incluir el estilo desde el HDML -->
+</head>
+<body>  
+<!-- Se utiliza index.html para que los usuarios no puedan ver todos mis folders -->
+    <a href=""><img src="tarea1/Images/pesos.PNG" alt></a>
+    <h1>Diego</h1>
+    <ul>
+        <li><a href="tarea1/contacto.html">Pagina secundaria</a></li>
+        <li><a href="tarea1/Estudio1.html">Pagina principal</a></li>
+        <p>esto no es hermano de H3</p>
+    </ul>
+    <!-- Se puede hacer un script de Java -->
+    <script>
+        alert("Hola Mundo");
+    </script>
+    <!-- se puede agregar el archivo de java -->
+    <script src="tarea1/Java/primero.js"></script>
+    <button id="boton">Click me!
+    </button>
+
+    <p>Prueba</p>
+
+    <a href="www.google.com" target="_blank">Abrir una nueva</a>
+
+    <!-- combinadores -->
+
+    <!-- descendientes -->
+    <h3>descendientes</h3>
+    <div>
+        <p>Este parrafo esta dentro de un div</p>
+        <p style="color: chartreuse;">Este parrafo tambien esta en un div</p> <!-- A esta etiqueta le estoy agregando el estilo desde el atributo, este toma mayor prioridad, 
+        el ID tambien pesa bastante -->
+    <button>
+        <p>Sera que es afectado?</p>  <!-- tambien es afectado este p aunque sea parte del button porque es parte del div que declaramos en CSS -->
+    </button>
+    </div>
+    <p>Este parrafo esta fuera</p>
+
+
+    <!-- Hijo directo -->
+    <h3>Hijo directo</h3>
+    <ul>
+        <li>hijo directo</li>
+        <li>otro hijo directo</li>
+        <ol>
+            <li>hijo no directo</li>
+        </ol>
+    </ul>
+
+    <!-- elemento adyancente, elemento que esta inmediatamente despues del otro -->
+    <h3>Elemento adyacente</h3>
+    <p>Este parrafo es adyacente</p>
+    <p>Este parrafo no es adyacente</p>
+
+    <!-- elemento general de hermanos-->
+    <h2>Titulo de hermanos</h2>
+    <h3>Elemento general de hermanos</h3>
+    <p>Este parrafo es hermano 1</p>
+    <p>Este parrafo es hermano 2</p>
+
+</body>
+</html>

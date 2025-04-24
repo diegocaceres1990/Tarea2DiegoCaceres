@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Estilo3especificidad.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- si yo le coloco h1 style="color:green;", esta manera le va a dar mas especificidad, mientras mas cerca el estilo este de la etiqueta ese color le dara -->
+    <h1>Titulo de la pagina</h1>
+    <div id="container">
+        <p class="text">Este es una clase</p>
+    </div>
+
+    <div id="main" class="box">
+        <p class="text" data-info="special">Este es un parrafo dentro de un div 2</p>
+    </div>
+    <div id="header" class="wrapper">
+        <ul class="menu">    
+            <li>
+                <a href="#" class="active">Elemento 1</a>
+            </li>
+            <li>
+                <a href="#">Elemento 2</a>
+            </li>
+            <li>Elemento 3</li>
+        </ul>
+
+    </div>
+
+<div id="hero" class="section highlight">   
+    <p class="lead">compras completas</p>
+</div>
+
+
+</body>
+</html>

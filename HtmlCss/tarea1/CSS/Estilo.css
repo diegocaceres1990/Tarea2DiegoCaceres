@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+}
+/* el "*" le da CSS a todos los elementos o atributos de mi pagina */
+
+body {
+    background-color: pink;
+}
+h1 {
+    color: white;
+}
+
+/* si tengo mas h1 en mi html va a afectar a todos */
+
+.section-links {
+    color: yellow;
+}
+/* Le agregue section-links a una etiqueta a, para que se separen los colores, a todas las etiquetas les agrego cualquier class que yo quiera me puedo inventar los nombres eso para 
+que el CSS no afecte todas etiquetas con el mismo nombre  */
+
+#boton {
+    background-color: black;
+    color: blue;
+}
+
+/* #boton se le agrega el numeral cuando se le agrega un ID a una etiqueta  */
+
+p {
+    color: red;
+    font-size: 20px;
+}
+
+/* font-size es para el tama;o de las letras */
+
+a[target="_blank"] {
+    color: red;
+}
+
+/* A una etiqueta a le agregue targert="_blank" para darle color a este se agrega en la forma de arriba, esto es para darle color a los atributos*/
+
+
+
+
+/* combinadores, descendientes espacio, se agrega el padre o el elemento que lo contiene */
+div p {
+    color: green;
+}
+
+/* hijo directo */
+
+ul > li{
+    color: orange;
+}
+
+/* elemento adyacente */
+/* selecciona el primer elemento que esta inmediatamente despues del otro */ 
+h3 + p {
+    color: white;
+}
+
+
+/* general de hermanos, selecciona todos los elementos hermanos que siguen al elemento anterior */
+
+h3 ~ p{
+    color: fuchsia;
+    font-size: 24px;
+}
+
+/* p {
+    color: white !important; /* El !important es lo mas especifico de todo, esto ganara por sobre todos, le quite el punto y coma para que no tome efecto */
+/* }
+ */
+

@@ -1,0 +1,76 @@
+<html> 
+    <head> 
+        <title>Comida favorita</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Este es un blog de Comida favorita">
+        <meta name="author" content="Diego Caceres">
+        <meta name="keyboards" content="Comida, favorita, blog, comida china, comida italiana, comida mexicana, comida guatemalteca, comida peruana">
+<!-- Aqui estamos viendo de ejemplos para insertar CSS desde la pagina HTML -->
+        <link rel="stylesheet" href="CSS/Estilo.css">
+    </head>
+
+    <body>
+        <h1>Bienvenido Diego Caceres</h1>
+        <!-- ol se hace la lista con numeros, en las imagenes se utiliza alt para personas que no pueden ver hay un programa que lee toda la pagina y se incluye el alt de la imagen, 
+        tambien si la imagen no sirve sale el nombre del alt-->
+        <ol>
+            <li> 
+                <a class="section-links"> ir a comida china </a> 
+                <a href="https://www.recetasdechina.com/blog/"><img src="Images/ComidaPeruana.jpg" alt="ComidaChina" height="180" width="300"></a>
+            </li>
+            <li><a href="https://gastronomia-italiana.es/blog/"><img src="Images/ComidaItaliana.jpg" alt="ComidaItaliana" height="180" width="300"></a></li>
+            <li><a href="https://www.mexicoenmicocina.com/"><img src="Images/ComidaMexicana.jpg" alt="ComidaMexicana" height="180" width="300"></a></li>
+            <li><a href="https://www.worldpackers.com/es/articles/comidas-tipicas-de-guatemala"><img src="Images/ComidaGuatemalteca.jpeg" alt="ComidaGuatemaltca" height="180" width="300"></a></li>
+            <li><a href="https://cocatambo.com/blog/comida-peruana"><img src="Images/ComidaPeruana.jpg" alt="ComidaPeruana" height="180" width="300"></a></li>
+        </ol>
+        <!-- La UL es para hacer la lista con puntos -->
+        <ul>
+            <li>Comida China</li>
+            <li>Comida Italiana</li>
+            <li>Comida Mexicana</li>
+            <li>Comida Guatemalteca</li>
+            <li>Comida Peruana</li>
+        </ul>
+<!-- Tablas en HTML, para TD solo son las listas, para TH son los titulos, se puede usar tambien tbody para envolver todo el cuerpo de la tabla o 
+se puede usar thead para declarar que son titulos en las tablas, se le puede agregar border y tambien imagen -->
+    <table border ="5">
+        <tr>
+            <thead>
+                <th>Comida China</th>
+                <th>
+                    Comida Italiana   
+                    <img src="CSS/ComidaItaliana.jpg">
+                </th>
+                <th>Comida Mexicana</th>
+                <th>Comida Guatemalteca</th>
+                <th>Comida Peruana</th>
+            </thead>
+        </tr>
+        <tr>
+                <td>Arroz frito</td>
+                <td>Pasta</td>
+                <td>Tacos</td>
+                <td>Pepian</td>
+                <td>Ceviche</td>
+        </tr>
+        
+        </tr>
+    </table>
+<!-- Forumarios, form: aqui se mete a que pagina se meten los parametros, osea a donde se enviaran los datos del formulario, aqui normalmente se usa un archivo 
+.php donde lo va a recibir -->
+    <form action="../index.html">
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" type="text" placeholder="Escribe tu nombre">
+        <label for="edad">Edad:</label>
+        <input id="edad" type="number" placeholder="Escribe tu edad">
+        <input id="date" type="date" placeholder="Escribe tu fecha de nacimiento">
+        <input type="color" name="nombrecolor" id="color">
+        <!-- el type submit es el que va a enviar los datos lo que declare en el index -->
+        <input type="submit" value="Enviar">
+    </form>
+<!-- Agregar una pagina secundaria, tambien aqui miramos <b></B> para hacer bold -->
+    <b></b><a href="contacto.html">Pagina secundaria</a></b>
+    <a href="../index.html">Pagina principal</a>
+    </body>
+</html>
